@@ -1,4 +1,4 @@
-Пример простого web-сервера на `Python`, с использованием `flask` и `SQLite`.
+Пример простого web-сервера для на `Python`, с использованием `flask` и `SQLite`.
 
 ## Структура
 
@@ -11,4 +11,6 @@
 `pip install -r requirements.txt`
 
 ### Запуск
+`$ flask run`
+или
 `$ waitress-serve --port=80 --call app:create_app` (default IP is 0.0.0.0) Проверить можно по localhost.
